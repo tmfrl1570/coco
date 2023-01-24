@@ -4,8 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/topTextArea"
@@ -45,17 +44,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="50dp"
-
+            android:background="@color/blue"
             android:gravity="center"
             android:layout_margin="20dp"
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:text="선택 완료"
-            />
-
+            android:text="선택 완료" />
     </LinearLayout>
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
